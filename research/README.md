@@ -79,3 +79,6 @@ The full contract, including every response shape and error path, is in
 - [Kronos](https://github.com/shiyu-coder/Kronos) — decoder-only foundation
   model for financial K-lines; tokenizer/architecture ideas for glance's own
   models (see `docs/models.md`)
+- [Mamba](https://arxiv.org/abs/2312.00752) / state-space models — linear-time,
+  constant-memory sequence backbone for the long screen→action session (vs
+  quadratic attention); see the SSM section in `docs/models.md`
